@@ -9,7 +9,7 @@ int main()
       // anything else you want to do when it fails goes here
    }
 
-    return 0;
+    return 1;
 }
 
 
