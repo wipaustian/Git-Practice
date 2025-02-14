@@ -1,0 +1,41 @@
+int main()
+{
+   int n;
+   
+   while (!scanf("%d", &n))
+   {
+      printf("%d not recognised as an integer, please try again. \n", n);
+      while (getchar() != '\n');
+      // anything else you want to do when it fails goes here
+   }
+
+    return 0;
+}
+
+
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <stdio.h>
+
+int main()
+{
+    int a, b;
+
+    printf("Please enter length in kilometers: \n");
+    while(!(1==scanf("%d", &a)) || a < 0){
+       printf("Not a valid number. Try and again. \n");
+       scanf("%*[^\n]");
+       printf("Please enter length in kilometers: \n");
+    }
+
+    b=a*1000;
+    printf("%d kilometers are %d meters", a, b);
+
+    return 0;
+}

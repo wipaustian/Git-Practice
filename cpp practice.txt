@@ -1,0 +1,77 @@
+#include <iostream>
+#include <string>
+using namespace std;
+//check if number or string
+bool check_number(string str) {
+   for (int i = 0; i < str.length(); i++)
+   if (isdigit(str[i]) == false)
+      return false;
+      return true;
+}
+int main() {
+   string str;
+   int number;
+   cin >> str;
+   while(!check_number(str)) {
+      cin >> str; 
+   }
+   number = stoi(str);
+   cout << number << endl;
+   
+}
+
+srand(time(0));
+
+// Generate a random number between 50 and 101
+int randomNum = rand() % (101 - 50) + 50;
+
+std::cout << randomNum;
+
+
+// Online IDE - Code Editor, Compiler, Interpreter
+
+#include<iostream>
+#include<thread>
+#include<vector>
+
+using namespace std;
+
+void func(int thread_num) {
+    for(int i = 0; i < 100; i++) {
+        cout << thread_num << " " << i << ".\n";
+    }
+}
+
+bool isNumber(const string& s)
+{
+    for (char c : s) {
+        if (!isdigit(c)) {
+            return false;
+        }
+    }
+    return true;
+}
+
+int main()
+{
+    vector <thread> threads;
+    int num_of_threads = 0;
+    cout << "How many threads?: \n";
+
+    while (!(cin >> num_of_threads)) {
+        cout << "Invalid input. Please enter an integer: ";
+        cin.clear(); 
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    }
+
+    for(int i = 1; i <= num_of_threads; i++) {
+       threads.push_back(std::thread(func, i));
+    }
+
+ // Wait for all threads to finish
+    for (auto& thread : threads) {
+       thread.join();
+    }
+    cout<<"Welcome to Online IDE!! Happy Coding :)";
+    return 0;
+}

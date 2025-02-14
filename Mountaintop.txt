@@ -1,0 +1,65 @@
+About the job Embedded Software Engineer
+
+WHO YOU ARE:  
+
+Mountain Top Talent is looking to hire an Embedded Systems Software Engineer. If you're someone who has experience in this field, and specifically, can integrate advanced government software on a test platform that we are designing you could be a great fit. You will also need to have a strong understanding of defense and particularly ground vehicle integration. 
+
+
+
+WHAT WE OFFER YOU:  
+
+   An opportunity to work with the company at the forefront of software development and  engineering in the DOD contracting space (This is not a contract position, it's full time!)
+A small to midsize company atmosphere where you're valued as a person, not just another cog in the wheel
+Fantastic benefits and unparalleled opportunities for growth within your role
+
+A TYPICAL DAY:
+
+   Design, develop, and test embedded software for microcontrollers and microprocessors.
+Collaborate with hardware engineers to integrate software with hardware components.
+Develop device drivers, communication protocols, and control algorithms.
+Optimize code for performance, reliability, and low-power operation.
+Participate in code reviews and contribute to team discussions to improve software quality.
+Troubleshoot and debug issues in embedded systems using oscilloscopes, logic analyzers, and other diagnostic tools.
+Create and maintain technical documentation, including software design specifications and user manuals.
+Assist in the development of test plans and verification strategies to ensure high-quality deliverables.
+
+
+SALARY INFO:
+
+Salary range for this position is negotiable
+
+
+ ADDITIONAL PAY AND BENEFITS
+
+Medical, dental, vision, life, disability
+Paid time off 
+401k options
+Work life balance
+
+
+REQUIREMENTS
+
+Bachelors degree in Electrical Engineering, Computer Engineering, Computer Science, or a related field.
+3-5 years of experience in embedded systems software development.
+Proficiency in C/C++ programming languages and familiarity with assembly language.
+Strong understanding of operating system concepts, including memory management, process scheduling, and I/O.
+Experience with Linux kernel development, device drivers, or embedded systems.
+Familiarity with performance profiling and debugging tools (e.g., GDB, Valgrind, perf).
+Knowledge of hardware interfaces and protocols (PCIe, USB, Ethernet).
+Experience with version control systems (Git) and continuous integration workflows.
+Experience with microcontrollers (e.g., ARM Cortex-M, AVR, PIC) and real-time operating systems (RTOS).
+
+
+Questions:
+
+What keeps you at mountain top?
+
+Mistake most new people make
+
+Where do you think the company is headed in the next five years?
+
+Can you describe the working culture of the organisation?
+
+What are the next steps in the interview process?
+
+How do you measure success in this role?
